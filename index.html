@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Movie Ticket Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎬 Movie Ticket Booking</h1>
+
+  <form id="form">
+    <select id="movie"></select>
+    <select id="time"></select>
+    <input type="number" id="qty" value="1" min="1" step="1" placeholder="Tickets">
+    <input type="email" id="email" placeholder="Your email">
+    <p id="total">Total: ₹0</p>
+    <p id="msg"></p>
+    <button type="submit" id="bookBtn">Book</button>
+    <button type="button" id="resetBtn">Reset</button>
+  </form>
+
+  <h2>Bookings (<span id="count">0</span>)</h2>
+  <input type="search" id="search" placeholder="Search bookings">
+  <div id="list"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4.4.1/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

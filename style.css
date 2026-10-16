@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; max-width: 500px; margin: auto; padding: 16px; background: #f4f4f4; }
+h1 { text-align: center; }
+form, .booking { background: #fff; padding: 12px; border-radius: 6px; margin-bottom: 10px; }
+input, select, button { width: 100%; padding: 8px; margin: 4px 0; font-size: 1rem; box-sizing: border-box; }
+button { background: #e50914; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+#resetBtn { background: #666; }
+.booking button { width: auto; float: right; }
+.error { color: red; }
+.success { color: green; }
